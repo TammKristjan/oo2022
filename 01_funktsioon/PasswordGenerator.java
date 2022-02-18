@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.security.SecureRandom;
+import java.util.Random;
 
 public class PasswordGenerator {
     public static void main (String[] args) {
@@ -18,7 +18,7 @@ public class PasswordGenerator {
         // ASCII range – alphanumeric (0-9, a-z, A-Z)
         final String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-        SecureRandom random = new SecureRandom();
+        Random random = new Random();
         StringBuilder sb = new StringBuilder();
 
         //iga loopi läbimine võtab suvalise tähe või numbri ASCII stringist ja lisab selle 'StringBuilder'-isse
