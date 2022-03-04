@@ -6,22 +6,14 @@ import java.util.Random;
 import static kodutoo.Main.cars;
 
 public class Car {
-    String model;
-    int year;
-    int topSpeed;
-    boolean japan;
-    //char symbol;
+    autoInfo info;
 
-    public Car(String model, int year, int topSpeed, boolean japan){
-        this.model = model;
-        this.year = year;
-        this.topSpeed = topSpeed;
-        this.japan = japan;
-        //this.symbol = 'M';
+    public Car(autoInfo info){
+        this.info = info;
     }
 
     public void carInfo(){
-        System.out.println("Auto: " + model + " " + year + " tippkiirusega " + topSpeed + "km/h");
+        System.out.println("Auto: " + info.model + " " + info.year + " tippkiirusega " + info.topSpeed + "km/h");
     }
 
 
@@ -33,7 +25,7 @@ public class Car {
         for (int i = 0; i <= 2;) {
             Random rand = new Random();
             index = rand.nextInt(cars.size());
-            String randomCar = String.valueOf(cars.get(index).model);
+            String randomCar = String.valueOf(cars.get(index).info.model);
 
             if (i >= 1) {
                 if (race.get(0).contains(randomCar)){
@@ -57,12 +49,12 @@ public class Car {
 
     public static void chooseWinner(){
         System.out.println("Kiirused:");
-        System.out.println((cars.get(indexes.get(0))).model + " kiirus: " + (cars.get(indexes.get(0))).topSpeed + "km/h");
-        System.out.println((cars.get(indexes.get(1))).model + " kiirus: " + (cars.get(indexes.get(1))).topSpeed + "km/h");
-        if((cars.get(indexes.get(0))).topSpeed > (cars.get(indexes.get(1))).topSpeed){
-            System.out.println("Kiirenduse võitja: " + (cars.get(indexes.get(0))).model);
+        System.out.println((cars.get(indexes.get(0))).info.model + " kiirus: " + (cars.get(indexes.get(0))).info.topSpeed + "km/h");
+        System.out.println((cars.get(indexes.get(1))).info.model + " kiirus: " + (cars.get(indexes.get(1))).info.topSpeed + "km/h");
+        if((cars.get(indexes.get(0))).info.topSpeed > (cars.get(indexes.get(1))).info.topSpeed){
+            System.out.println("Kiirenduse võitja: " + (cars.get(indexes.get(0))).info.model);
         } else {
-            System.out.println("Kiirenduse võitja: " + (cars.get(indexes.get(1))).model);
+            System.out.println("Kiirenduse võitja: " + (cars.get(indexes.get(1))).info.model);
         }
     }
     /*
@@ -130,10 +122,10 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "model='" + model + '\'' +
-                ", year=" + year +
-                ", topSpeed=" + topSpeed + "km/h" +
-                ", japan=" + japan +
+                "model='" + info.model + '\'' +
+                ", year=" + info.year +
+                ", topSpeed=" + info.topSpeed + "km/h" +
+                ", japan=" + info.japan +
                 //", symbol=" + symbol +
                 '}';
     }

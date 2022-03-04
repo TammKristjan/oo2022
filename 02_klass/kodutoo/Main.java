@@ -21,7 +21,6 @@ public class Main {
         }
 
         Car.chooseCar();
-        //System.out.println(Car.race);
 
         Car.chooseWinner();
 
@@ -36,7 +35,7 @@ public class Main {
             if (race.size() == 1) {
                 System.out.println(race.get(0) + "+++++");
                 if (race.get(0) != randomCar){
-                    System.out.println("APPPIIIII");
+                    System.out.println("IIIII");
                     race.add(randomCar);
                     i++;
                 } else {
