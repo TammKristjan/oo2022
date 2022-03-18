@@ -2,7 +2,8 @@ package isikukood;
 
 public class IsikukoodEE implements IsikukoodObject {
     String isikukood;
-    String[] kuud = {"Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"};
+    String[] kuud = {"Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September",
+            "Oktoober", "November", "Detsember"};
     // 39412431256
 
     // parem klõks - generate - constructor
