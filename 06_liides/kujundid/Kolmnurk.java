@@ -10,6 +10,7 @@ public class Kolmnurk implements Kujund{
         this.kylg1 = kylg1;
         this.kylg2 = kylg2;
         this.kylg3 = kylg3;
+
     }
 
     @Override
@@ -19,8 +20,8 @@ public class Kolmnurk implements Kujund{
 
     @Override
     public double arvutaPindala() {
-        return Math.sqrt(arvutaYmbermoot()/2-kylg1*
-                arvutaYmbermoot()/2-kylg2*
-                arvutaYmbermoot()/2-kylg3);
+        return Math.sqrt((arvutaYmbermoot()/2-kylg1)*
+                (arvutaYmbermoot()/2-kylg2)*
+                (arvutaYmbermoot()/2-kylg3));
     }
 }
