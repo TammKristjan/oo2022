@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed16516-fcd1-4ca7-992b-eeb71e4d32ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/FarmAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/HomeAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Moose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/WildAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08_alamklassid/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../09_tunnirakenduse_lahendus/webshop/src/main/java/ee/kristjan/webshop/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../06_liides/game/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/game/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../06_liides/game/Game2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/game/Game2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../06_liides/game/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/game/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Player$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/out/production/06_liides/game/Player.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07_junit/kodutoo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

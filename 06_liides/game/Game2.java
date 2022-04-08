@@ -15,6 +15,16 @@ public class Game2 {
         Item dagger = new Item(world.height,world.width,ItemType.DAGGER);
         world.items = Arrays.asList(sword,hammer,dagger);
 
+        /*
+        world.characters.add(mangija1);
+        world.characters.add(mangija2);
+        world.characters.add(sword);
+
+        world.worldObjects.add(mangija1);
+        world.worldObjects.add(vaenlane1);
+        world.worldObjects.add(sword);
+         */
+
         world.printMap(mangija1.coordinateY,
                 mangija1.coordinateX, vaenlane1.coordinateY,
                 vaenlane1.coordinateX);
