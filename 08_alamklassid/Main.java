@@ -18,5 +18,11 @@ public class Main {
 
         Cat cat = new Cat();
         cat.magaDiivanil();
+
+        Horse horse = new Horse();
+        horse.maga6lgedel();
+
+        Bear bear = new Bear();
+        bear.jookse();
     }
 }
