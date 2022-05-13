@@ -1,0 +1,17 @@
+a.txt Sõnu: 180
+b.txt Sõnu: 25
+d.txt Sõnu: 118
+e.txt Sõnu: 149
+g.txt Sõnu: 1
+h.txt Sõnu: 1
+i.txt Sõnu: 93
+k.txt Sõnu: 7
+l.txt Sõnu: 57
+m.txt Sõnu: 8
+n.txt Sõnu: 49
+r.txt Sõnu: 12
+s.txt Sõnu: 91
+t.txt Sõnu: 82
+u.txt Sõnu: 38
+v.txt Sõnu: 4
+ö.txt Sõnu: 2
