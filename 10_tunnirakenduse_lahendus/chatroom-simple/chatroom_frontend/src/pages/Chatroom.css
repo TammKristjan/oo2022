@@ -1,0 +1,76 @@
+#messageBox {
+    width: 95vw;
+    padding: .25rem;
+    font-size: 1.25rem;
+    margin: .25rem;
+    background: #444;
+    display: flex;
+}
+
+#messageBox:hover {
+    background: #505050;
+}
+
+#username {
+    background: #222;
+    border: .5rem solid #222;
+}
+
+#message {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+input {
+    width: 90vw;
+    height: 5vh;
+}
+
+#messageSubmit {
+    margin-left: .5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+#messageForm {
+    position: fixed;
+    flex-direction: row;
+    bottom: 5vh;
+}
+
+#messageText {
+    width: 90vw;
+    background: #111;
+    border: 0;
+    padding: .5rem;
+    color: white;
+}
+
+#messagesContainer, #archiveContainer {
+    height: 70vh;
+    overflow-y: scroll;
+    padding: .5rem;
+    background: #333;
+    position: fixed;
+    top: 14vh;
+}
+
+#archiveContainer {
+    height: 80vh;
+}
+
+.eraseButton {
+    position: absolute;
+    right: 1.25vw;
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    background: darkred;
+}
+
+.eraseButton:hover {
+    background: red;
+}

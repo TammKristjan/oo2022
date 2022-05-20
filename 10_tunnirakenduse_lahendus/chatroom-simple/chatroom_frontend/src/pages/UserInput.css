@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 2rem;
+}
+
+#textInput, #colorInput {
+    width: max-content;
+    background: #111;
+    border: 0;
+    padding: .5rem;
+    color: white;
+}
+
+#colorInput {
+    width: 3rem;
+    height: 3rem;
+}
